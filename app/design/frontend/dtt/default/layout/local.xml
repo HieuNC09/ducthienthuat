@@ -1,0 +1,15 @@
+<layout version="0.1.0">
+    <default>
+        <reference name="root">
+            <remove name="footer"/>
+        </reference>
+        <reference name="header">
+            <block type="cms/block" name="menu_container" as="menu_container">
+                <action method="setBlockId"><block_id>menu_container</block_id></action>
+            </block>
+            <block type="cms/block" name="social_login" as="social_login">
+                <action method="setBlockId"><block_id>social_login</block_id></action>
+            </block>
+        </reference>
+    </default>
+</layout>

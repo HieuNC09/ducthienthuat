@@ -1,0 +1,32 @@
+# magento db config #
+####################
+app/etc/local.xml
+skin/frontend/milandirectupdate/default/scss/.sass-cache/*
+skin/frontend/milandirectupdate/default/css/*.map
+#netbean file
+nbproject/private/private.xml
+nbproject/
+# magento folder #
+#####################
+media/*
+var/*
+!var/.htaccess
+!var/backup/*
+sitemaps/*.xml
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# eclipse file #
+##############
+.buildpath
+.project
+.settings/*
+
+# phpstorm #
+############
+.idea/*
